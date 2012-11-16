@@ -1,0 +1,85 @@
+.prettyselect {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    font-family: arial, sans-serif;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+select.prettyselect {
+    padding: 5px 6px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.prettyselect-facade-active > .value {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    text-indent: 1px;
+    padding: 0 22px 0 6px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.prettyselect-facade-active > .caret {
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 6px;
+    vertical-align: middle;
+    border-top: 5px solid #999;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: '';
+}
+
+.prettyselect-facade-active > select.prettyselect {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    moz-opacity: 0;
+    left: 0;
+    top: -1px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    width: auto;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.prettyselect-facade-active.prettyselect-stretch > select.prettyselect {
+    width: 100% !important;
+}
+
+/* hover state */
+.prettyselect-facade-active.hover {
+    background-color: #f7f7f7;
+    color: #111;
+}
+
+.prettyselect-facade-active.hover > .caret {
+    border-top-color: #333;
+}
+
+/* focus state */
+.prettyselect-facade-active.focus {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.prettyselect-facade-active.focus > .caret {
+    border-top-color: #fff;
+}

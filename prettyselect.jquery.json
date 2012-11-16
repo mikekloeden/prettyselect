@@ -1,0 +1,32 @@
+{
+    "name": "prettyselect",
+    "title": "jQuery prettyselect",
+    "description": "A lightweight jQuery plugin to prettify your <select> elements without replacing their default behaviour.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/mikekloeden/prettyselect",
+    "author": {
+        "name": "Mike Klöden",
+        "email": "mike.kloeden@gmail.com",
+        "url": "http://mkloeden.de"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mikekloeden/prettyselect.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mikekloeden/prettyselect/issues"
+    },  
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/mikekloeden/prettyselect/blob/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">= 1.7"
+    },
+    "keywords": [
+        "select",
+        "replacement"
+    ]
+}
