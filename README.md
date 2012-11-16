@@ -1,4 +1,4 @@
-# jQuery prettyselect
+# jQuery prettyselect [![Build Status](https://secure.travis-ci.org/mikekloeden/prettyselect.png?branch=master)](https://travis-ci.org/mikekloeden/prettyselect)
 
 A lightweight jQuery plugin to prettify your <select> elements without replacing their default behaviour.
 
