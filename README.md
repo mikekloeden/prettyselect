@@ -3,7 +3,7 @@
 A lightweight jQuery plugin to prettify your <select> elements without replacing their default behaviour.
 
 ## Getting Started
-Download the CSS[css] and JS[js] files.
+Download the [CSS] and [JS] files.
 
 [js]: https://raw.github.com/mikekloeden/prettyselect/master/dist/jquery.prettyselect.min.js
 [css]: https://raw.github.com/mikekloeden/prettyselect/master/dist/prettyselect.css
