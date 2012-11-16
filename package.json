@@ -2,7 +2,7 @@
     "name": "prettyselect",
     "version": "0.1.0",
     "engines": {
-        "node": ">= 0.6.0"
+        "node": ">= 0.8.0"
     },
     "scripts": {
         "test": "grunt buster"
