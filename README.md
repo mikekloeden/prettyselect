@@ -1,6 +1,6 @@
 # jQuery prettyselect [![Build Status](https://secure.travis-ci.org/mikekloeden/prettyselect.png?branch=master)](https://travis-ci.org/mikekloeden/prettyselect)
 
-A lightweight jQuery plugin to prettify your <select> elements without replacing their default behaviour.
+A lightweight jQuery plugin to prettify your select elements without replacing their default behaviour.
 
 ## Getting Started
 Download the [CSS] and [JS] files.
@@ -24,7 +24,7 @@ $(function() {
 _(Coming soon)_
 
 ## License
-Copyright (c) 2012 Mike Klöden  
+Copyright (c) 2013 Mike Klöden  
 Licensed under the MIT license.
 
 ## Contributing
